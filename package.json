@@ -1,0 +1,28 @@
+{
+  "devDependencies": {
+    "@types/cors": "^2.8.10",
+    "concurrently": "^6.2.0",
+    "nodemon": "^1.19.1",
+    "typescript": "^3.5.2"
+  },
+  "dependencies": {
+    "@types/express": "^4.17.12",
+    "@types/mongoose": "^5.11.97",
+    "@types/mongoose-paginate": "^5.0.9",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.12.13",
+    "mongoose-paginate": "^5.0.3"
+  },
+  "name": "mean",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "tsc && nodemon dist/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
